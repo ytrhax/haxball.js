@@ -90,7 +90,7 @@ fetch("https://www.haxball.com/cache_hash.json")
     // Websocket On Error Debug -> debug && console.error(e);
 
     // Modules
-    target.write(`const wrtc = require("@koush/wrtc");
+    target.write(`const wrtc = require("@roamhq/wrtc");
 const XMLHttpRequest = require('xhr2');
 const WebSocket = require("ws");
 const url = require("url");
